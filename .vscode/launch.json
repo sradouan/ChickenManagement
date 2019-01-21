@@ -8,8 +8,9 @@
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "startupObjectId": 50133,            
-            //"schemaUpdateMode": "Recreate"
+            "startupObjectId": 22,
+            "startupObjectType": "Page",           
+            //"schemaUpdateMode": "synchronize"
         }
     ]
 }

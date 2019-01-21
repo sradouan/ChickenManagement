@@ -3,6 +3,7 @@ page 50133 "Chicken Mngt RoleCenter"
     // version EXT001
 
     PageType = RoleCenter;
+    UsageCategory = Lists;
 
     layout
     {

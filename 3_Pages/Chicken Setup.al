@@ -1,40 +1,40 @@
 page 50125 "Chicken Setup"
 {
-  // version EXT001
+    // version EXT001
 
-  DelayedInsert=false;
-  DeleteAllowed=false;
-  InsertAllowed=false;
-  ModifyAllowed=true;
-  PageType=Card;
-  SourceTable="Chicken Setup";
+    DelayedInsert = false;
+    DeleteAllowed = false;
+    InsertAllowed = false;
+    ModifyAllowed = true;
+    PageType = Card;
+    SourceTable = "Chicken Setup";
 
-  layout
-  {
-    area(content)
+    layout
     {
-      group(General)
-      {
-        field("Chicken Nos.";"Chicken Nos.")
+        area(content)
         {
+            group(General)
+            {
+                field("Chicken Nos."; "Chicken Nos.")
+                {
+                }
+                field("Egg. Production Nos."; "Egg. Production Nos.")
+                {
+                }
+                field("Posted Egg. Production Nos."; "Posted Egg. Production Nos.")
+                {
+                }
+            }
         }
-        field("Egg. Production Nos.";"Egg. Production Nos.")
-        {
-        }
-        field("Posted Egg. Production Nos.";"Posted Egg. Production Nos.")
-        {
-        }
-      }
     }
-  }
 
-  actions
-  {
-  }
+    actions
+    {
+    }
 
-  trigger OnOpenPage();
-  begin
-    IF NOT GET THEN INSERT;
-  end;
+    trigger OnOpenPage();
+    begin
+        IF NOT GET THEN INSERT;
+    end;
 }
 
