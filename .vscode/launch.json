@@ -6,6 +6,7 @@
             "request": "launch",
             "name": "Your own server",
             "server": "http://localhost",
+            "port": 7049,
             "serverInstance": "BC130",
             "authentication": "Windows",
             "startupObjectId": 22,
