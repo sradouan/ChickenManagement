@@ -3,9 +3,8 @@
   "name": "Chicken Management",
   "publisher": "Steven Renders",
   "brief": "",
-  "description": "Chicken Management, including Saasification",
-  "version": "8.0.0.0",
-  "compatibilityId": "1.0.0.0",
+  "description": "",
+  "version": "1.0.0.0",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -14,10 +13,11 @@
   "capabilities": [],
   "dependencies": [],
   "screenshots": [],
-  "platform": "11.0.0.0",
-  "application": "11.0.0.0",
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
   "idRange": {
     "from": 50100,
     "to": 50149
-  }
+  },
+  "runtime": "2.2"
 }

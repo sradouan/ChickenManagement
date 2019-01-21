@@ -5,11 +5,11 @@
             "type": "al",
             "request": "launch",
             "name": "Your own server",
-            "server": "https://devprevdecnew.westeurope.cloudapp.azure.com",
-            "serverInstance": "NAV",
-            "tenant": "",
-            "authentication": "UserPassword",
-            "startupObjectId": 50133
+            "server": "http://localhost",
+            "serverInstance": "BC130",
+            "authentication": "Windows",
+            "startupObjectId": 50133,            
+            //"schemaUpdateMode": "Recreate"
         }
     ]
 }
